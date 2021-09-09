@@ -1,0 +1,38 @@
+.leftCol { 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    width: 50%;
+    height: 100%;
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+.rightCol { 
+    position: absolute; 
+    right: 0; 
+    top: 0; 
+    width: 50%;
+    height: 100%;
+}
+
+a.button {
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: #f57171;
+    transition: 0.2s;
+    margin: 1%;
+}
+   
+a.button:hover { background: #fc5a5a; }
+
+a.button:active {
+    background: #fc5a5a;
+    box-shadow: 0 3px #fc5a5a inset;
+}
+
+.body {
+    padding: 3%;
+}

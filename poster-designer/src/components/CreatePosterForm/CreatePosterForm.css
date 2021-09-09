@@ -1,0 +1,28 @@
+.cols {
+	white-space: nowrap;
+    margin-top: 30%;
+    margin-right: 1%;
+}
+
+.colsItem {
+	white-space: normal;	
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+    align-items: center;
+}
+
+.colsItem input {
+    margin-left: 5%;
+	height: 30px;
+	width: 100%;
+	font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 8px;
+}
+
+.cols .colsItem:first-child {
+	margin-right: 4%;
+}

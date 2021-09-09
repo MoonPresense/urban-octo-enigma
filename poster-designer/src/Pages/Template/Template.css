@@ -1,0 +1,27 @@
+.templateBody {
+    max-width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%
+}
+
+a.button {
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: #f57171;
+    transition: 0.2s;
+}
+   
+a.button:hover { background: #fc5a5a; }
+
+a.button:active {
+    background: #fc5a5a;
+    box-shadow: 0 3px #fc5a5a inset;
+}
+
+.sliderPoster {
+    margin-top: 1%;
+}
+
